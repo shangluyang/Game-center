@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/catLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="194dp"
+        android:layout_height="131dp"
+        android:background="#F0CA51"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logout_iv_logout"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="83dp"
+            app:srcCompat="@drawable/logout" />
+
+        <TextView
+            android:id="@+id/logout_tv_warning"
+            android:layout_width="164dp"
+            android:layout_height="19dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="63dp"
+            android:text="Are you sure to log out?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/logout_btn_cancel"
+            android:layout_width="77dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="83dp"
+            android:layout_marginEnd="102dp"
+            android:layout_marginBottom="9dp"
+            android:text="@android:string/cancel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#070303"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/logout_btn_logout"
+            android:layout_width="77dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="9dp"
+            android:text="Log Out"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#070303"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

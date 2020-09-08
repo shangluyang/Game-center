@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GameProject</string>
+    <string name="point_value">50</string>
+    <string name="title">Good Luck!</string>
+    <string name="gamble_button">gamble</string>
+    <string name="gamble_hint">Enter the amount to gamble</string>
+    <string name="won">You Won :)</string>
+    <string name="lost">You Lost :(</string>
+    <string name="Insufficient">Insufficient</string>
+    <string name="high_score">50</string>
+    <string name="over">Game Over</string>
+    <string name="back">Back</string>
+</resources>

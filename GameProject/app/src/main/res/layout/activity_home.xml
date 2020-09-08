@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgd"
+    tools:context=".activity.HomeActivity">
+
+    <Button
+        android:id="@+id/homeResetPassword"
+        android:layout_width="126dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="32dp"
+        android:background="#D4AF37"
+        android:text="Reset Password"
+        app:layout_constraintBottom_toTopOf="@+id/homeScoreboard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/homeSnake"
+        android:layout_width="432dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="188dp"
+        android:src="@drawable/title_sinofgluttony"
+        app:layout_constraintBottom_toTopOf="@+id/homeGamble"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/homeScoreboard"
+        android:layout_width="126dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="28dp"
+        android:background="#D4AF37"
+        android:text="Scoreboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/homeCatchCat"
+        android:layout_width="343dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/title_sinofsloth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/homeGamble"
+        android:layout_width="348dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="160dp"
+        android:src="@drawable/title_sinofgreed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.984" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
